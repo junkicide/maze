@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MazeCellEdge : MonoBehaviour {
+public abstract class MazeCellEdge : MonoBehaviour {
 
 	public MazeCell cell, otherCell;
 
